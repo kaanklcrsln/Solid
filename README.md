@@ -4,6 +4,10 @@ Native macOS storage cleaner. Scan, review, delete. Local only.
 
 ## Install
 
+Download `SOLID-1.0.0.dmg` from [Releases](https://github.com/kaanklcrsln/Solid/releases), drag SOLID to Applications, then right-click → Open on first launch.
+
+Or build from source:
+
 ```bash
 git clone https://github.com/kaanklcrsln/Solid.git && cd Solid
 ./scripts/build.sh

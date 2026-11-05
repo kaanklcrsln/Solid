@@ -115,7 +115,7 @@ struct Footer: View {
     @EnvironmentObject var app: AppState
     var body: some View {
         HStack {
-            Text("SOLID v1.0").font(T.mono(9))
+            Text("SOLID v1.0.0").font(T.mono(9))
             Text("·  \(app.fullDiskAccess ? "FULL DISK ACCESS" : "STANDARD ACCESS")").font(T.mono(9))
             if app.executing { Text("·  \(app.execProgress)").font(T.mono(9)).lineLimit(1).truncationMode(.middle) }
             Spacer()
